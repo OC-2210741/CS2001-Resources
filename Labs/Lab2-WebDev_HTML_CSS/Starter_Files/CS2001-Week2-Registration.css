@@ -51,6 +51,10 @@ ul.navlist li a:hover {
 main {
     border-bottom: 0.5rem solid;
     box-sizing: border-box;
+    display: flex;
+    min-width: 20%;
+    max-width: 90%;
+    
     /*ToDo: Make this a flexible container; 
     You can find the following helpful: display, flex-wrap, width, min-height, height
     See lecture slides*/
@@ -86,13 +90,15 @@ section {
     */
     border: 3px solid green;
     padding: 10px;
+    margin-left: 300px;
   }
 
 /* Styling for text inputs in the form*/
 .textInput {
     display: block;
     width: auto;
-    text-align: left;
+    text-align: center;
+    
 }
 
 /*Styling with a media query - lecture slide 36*/
